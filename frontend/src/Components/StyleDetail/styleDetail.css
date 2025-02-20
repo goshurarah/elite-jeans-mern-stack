@@ -1,0 +1,58 @@
+.style-detail-container {
+ width: 100%;
+  }
+.style_detail_sample_picture{
+  width: 15rem;
+  
+}
+  .style-detail-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border: 1px solid #ccc;
+  }
+  
+  .style-detail-header {
+    font-size: 20px;
+    text-align: left;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+  }
+  
+  .style-detail-table td, 
+  .style-detail-table th {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .label_style {
+    font-weight: bold;
+    background-color: #F3F4F8;
+    width: 20%;
+  }
+  
+  .value_style {
+    width: 30%;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .style-detail-table td, 
+    .style-detail-table th {
+      font-size: 14px;
+      padding: 8px;
+    }
+  
+    .style-detail-header {
+      font-size: 18px;
+    }
+  
+    .label_style {
+      width: 30%;
+    }
+  
+    .value_style {
+      width: 70%;
+    }
+  }
+  

@@ -1,0 +1,99 @@
+.item-details-container {
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.item-details-container h2 {
+  margin-bottom: 10px;
+}
+
+.item-details-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.item-details-table th,
+.item-details-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.item-details-table th {
+  background-color: #eaeaea;
+  font-weight: bold;
+}
+
+.item-details-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.highlight {
+  color: red;
+  font-weight: bold;
+}
+
+.edit-button {
+  background-color: transparent;
+  color: #000;
+  border: none;
+  border-radius: 50%;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.edit-button i {
+  font-size: 14px;
+}
+
+.edit-button:hover {
+  background-color: #0056b3;
+}
+
+.delete-button {
+  background-color: transparent;
+  color: #000;
+  border: none;
+  border-radius: 50%;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.delete-button i {
+  font-size: 14px;
+}
+
+.delete-button:hover {
+  background-color: rgb(160, 11, 11);
+}
+
+.action-button-container {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+.top_item_detail {
+  display: flex;
+  justify-content: space-between;
+  background: #eaeaea;
+  font-size: 22px;
+  text-shadow: 0 1px white;
+  border-bottom: 1px solid #CDCDCD;
+  color: #636363;
+  padding: 1rem;
+}
+
+/* In your CSS */
+.input-wrapper {
+  display: flex;
+  width: 100%;
+  /* Makes sure the container takes full width */
+}
+
+.input-wrapper input {
+  flex: 1;
+  /* This will make the input take up all available space */
+}

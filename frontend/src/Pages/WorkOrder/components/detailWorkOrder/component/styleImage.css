@@ -1,0 +1,66 @@
+
+  
+ 
+  .card-image_style {
+    padding: 10px;
+  }
+  
+  .card-content_style {
+    padding: 10px;
+  }
+  
+  .card-actions_style {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+  }
+  
+  .btn_style {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .edit_style {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .delete_style {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  /* Styles for the new card with only the button */
+  .button-only-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    height: 200px; /* Height of the button-only card */
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .action_style {
+    padding: 10px 20px;
+    background-color: #008CBA;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .action_style:hover {
+    background-color: #005f73;
+  }
+  

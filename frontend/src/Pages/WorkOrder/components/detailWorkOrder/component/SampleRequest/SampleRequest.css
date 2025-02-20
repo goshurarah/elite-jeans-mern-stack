@@ -1,0 +1,10 @@
+.add-button_sample_css {
+  border: none;
+  border-left: 1px solid #cecece;
+  height: 37px;
+  line-height: 37px;
+  display: block;
+  padding: 0 10px;
+  font-size: 22px;
+  background: transparent;
+}

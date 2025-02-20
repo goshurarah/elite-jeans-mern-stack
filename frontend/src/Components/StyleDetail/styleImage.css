@@ -1,0 +1,73 @@
+.card-container_style {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 16px;
+  padding: 16px;
+}
+
+.card_styleImg {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-image_style img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card-content_style {
+  padding: 16px;
+}
+
+.card-actions_style {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 8px;
+}
+
+.btn_style {
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn_style.edit_style {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn_style.delete_style {
+  background-color: #dc3545;
+  color: white;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
+  .card-container_style {
+      grid-template-columns: repeat(3, 1fr); /* 3 cards per row for tablets */
+  }
+}
+
+@media (max-width: 768px) {
+  .card-container_style {
+      grid-template-columns: repeat(2, 1fr); /* 2 cards per row for small screens */
+  }
+
+  .card-actions_style {
+      flex-direction: column;
+      gap: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .card-container_style {
+      grid-template-columns: 1fr; /* 1 card per row for very small screens */
+  }
+}

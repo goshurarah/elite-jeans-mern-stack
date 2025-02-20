@@ -1,0 +1,135 @@
+.table-container_pom {
+    width: 90%;
+    margin: 15px ;
+    border: 1px solid #cdcdcd;
+    
+  
+    .search-input_pom {
+      width: 20%;
+      padding: 8px;
+      margin-top: 1rem;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1rem;
+      margin-left: 1rem;
+    }
+  
+    .custom-table_pom {
+      width: 100%;
+      border-collapse: collapse;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  
+      thead {
+        background-color: #f4f4f4;
+  
+        th {
+          text-align: left;
+          padding: 10px;
+          font-weight: bold;
+          border-bottom: 2px solid #ddd;
+        }
+      }
+  
+      tbody {
+        tr {
+          &:nth-child(even) {
+            background-color: #F3F4F8;
+          }
+  
+          &:hover {
+            background-color: #f1f1f1;
+          }
+  
+          td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+          }
+        }
+      }
+  
+      .edit-btn {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 5px 10px;
+        margin-right: 5px;
+        border-radius: 4px;
+        cursor: pointer;
+  
+        &:hover {
+          background-color: #0056b3;
+        }
+      }
+  
+      .delete-btn {
+        background-color: #dc3545;
+        color: #fff;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 4px;
+        cursor: pointer;
+  
+        &:hover {
+          background-color: #c82333;
+        }
+      }
+    }
+  
+    .pagination {
+      margin: 15px;
+      text-align: right;
+  
+      button {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 8px 12px;
+        margin-left: 5px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 0.9rem;
+  
+        &:hover {
+          background-color: #0056b3;
+        }
+  
+        &:disabled {
+          background-color: #ccc;
+          cursor: not-allowed;
+        }
+      }
+    }
+  }
+  .pagination_all_pom{
+    display: flex;
+    justify-content: space-between;
+  }
+  .button_pom_top{
+    margin: 15px ;
+    /* width: 100%; */
+  }
+  .btn_pom_css{
+    padding: 1rem;
+    margin: 0;
+    border-bottom: 1px solid #CDCDCD;
+    background: #eaeaea;
+  }
+  .search_input_main{
+    border-bottom: 1px solid #CDCDCD;
+    background: #eaeaea;
+  }
+  .search_label_pom{
+    margin-left: 1rem;
+  }
+  .edit_pom{
+    background: #428bca;
+    border: none;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  .delete_pom{
+    background: #d2322d;
+    padding: 0.5rem;
+    border: none;
+  }

@@ -1,0 +1,69 @@
+/* Container for table and header */
+.table-container_sample {
+    width: 100%;
+    margin:  auto;
+    font-family: Arial, sans-serif;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .mdch{
+    padding: 30px  !important;
+  }
+.testst{
+  display: flex;
+  justify-content: space-between;
+}
+  .table-header_sample {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    border-bottom: 1px solid #ddd;
+    background-color: #f1f1f1;
+  }
+  
+
+  .add-button_sample {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .add-button_sample:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Table Styling */
+  .custom-table_sample {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+  }
+  
+  .custom-table_sample th,
+  .custom-table_sample td {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .custom-table_sample th {
+    background-color: #f1f1f1;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .custom-table_sample td {
+    background-color: white;
+  }
+  
+  .custom-table_sample tbody tr:hover {
+    background-color: #f9f9f9;
+  }
+  

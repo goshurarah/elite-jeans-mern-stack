@@ -1,0 +1,215 @@
+.container {
+  display: flex;
+  /* gap: 20px; */
+  padding: 0px 20px;
+  font-family: 'Arial', sans-serif;
+  
+}
+.add_button_config{
+  margin-bottom: 5px !important;
+}
+.table-container {
+  max-height: 80vh; 
+  overflow-y: auto; 
+  border: 1px solid #ccc; 
+  border-radius: 8px; 
+  padding: 10px; 
+}
+
+/* Custom scrollbar styles */
+.table-container::-webkit-scrollbar {
+  width: 5px; 
+}
+
+.table-container::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #91d5ff, #91d5ff); 
+  border-radius: 8px; 
+}
+
+.table-container::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #91d5ff, #91d5ff); 
+}
+
+.table-container::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius: 8px; 
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1); 
+}
+
+/* Tabs Section */
+.tabs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-right: 2px solid #ddd;
+  padding-right: 0px;
+}
+
+.tab-button {
+  padding: 10px 15px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 5px 0px 0px 5px;
+  font-weight: bold;
+  text-align: left;
+  transition: background-color 0.3s;
+}
+
+.tab-button.active,
+.tab-button:hover {
+  background-color: #e6f7ff;
+  color: #1890ff;
+  border: 1px solid #91d5ff;
+}
+
+/* Content Section */
+.content {
+  flex-grow: 1;
+  padding: 0px 20px;
+}
+
+h3 {
+  margin-bottom: 20px;
+}
+
+.add-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: background-color 0.3s;
+}
+
+.add-button:hover {
+  background-color: #218838;
+}
+
+/* Table Styling */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 10px 15px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f8f9fa;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Action Buttons */
+.action-button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+  transition: background-color 0.3s;
+}
+
+.action-button.update {
+  background-color: #1890ff;
+  color: #ffffff;
+}
+
+.action-button.update:hover {
+  background-color: #e0a800;
+}
+
+.action-button.delete {
+  background-color: #dc3545;
+  color: white;
+}
+
+.action-button.delete:hover {
+  background-color: #c82333;
+}
+
+/* Modal Styling */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 400px;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.modal-button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal-button.cancel {
+  background-color: #6c757d;
+  color: white;
+}
+
+.modal-button.cancel:hover {
+  background-color: #5a6268;
+}
+
+.modal-button:not(.cancel) {
+  background-color: #007bff;
+  color: white;
+}
+
+.modal-button:not(.cancel):hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .tabs {
+    flex-direction: row;
+    overflow-x: auto;
+    border-right: none;
+    border-bottom: 2px solid #ddd;
+    padding-right: 0;
+    padding-bottom: 10px;
+  }
+
+  .tab-button {
+    flex-grow: 1;
+    text-align: center;
+  }
+}

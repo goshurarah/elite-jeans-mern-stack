@@ -1,0 +1,18 @@
+.main_fit_comment_section{
+    padding: 10px;
+}
+.Heading_fit_comment{
+    background-color: rgb(63, 81, 181);
+    color: rgba(255, 255, 255, 0.87);
+padding: 0.1rem 1rem;
+}
+.select_main_fit_coment{
+    display: grid;
+}
+.comment_background_fitcomment{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 2px 1px -1px rgba(0, 0, 0, .12);
+    margin-top: 1rem;
+}

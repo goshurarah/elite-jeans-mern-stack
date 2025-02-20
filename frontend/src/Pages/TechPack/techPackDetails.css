@@ -1,0 +1,5 @@
+.rivet_button_All {
+  display: flex;
+  justify-content: space-between;
+  /* flex-direction: column; */
+}

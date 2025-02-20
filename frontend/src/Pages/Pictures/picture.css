@@ -1,0 +1,141 @@
+.image-gallery-container {
+ 
+  padding: 20px;
+ 
+}
+
+/* Header Section */
+.image-gallery-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.category-dropdown {
+  width: 200px;
+  padding: 8px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  background-color: white;
+  font-size: 14px;
+}
+
+.search-bar {
+  flex: 1;
+  margin-left: 20px;
+  position: relative;
+}
+
+.search-input {
+  width: 30%;
+  padding: 8px 40px 8px 12px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.search-input::placeholder {
+  color: #aaa;
+}
+.show_modal_picture{
+  margin: 1rem;
+}
+/* Image Grid */
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Show 4 items per row */
+  gap: 20px;
+}
+
+.image-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.image-preview {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.image-details {
+  text-align: start;
+  display: flex;
+  justify-content:space-between;
+  width: 100%;
+}
+/* .button_delete_picture{
+  position: relative;
+  top: 1rem;
+  left: 1rem;
+} */
+.image-title {
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+.image-category{
+  margin: 0;
+  padding: 0;
+}
+.image-view {
+  font-size: 11px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.delete-button {
+  padding: 5px 10px;
+  font-size: 12px;
+  color: white;
+  background-color: #dc3545;
+  border: none;
+  border-radius: 4px !important;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .image-grid {
+    grid-template-columns: repeat(3, 1fr); /* 3 per row for medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .image-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 per row for small screens */
+  }
+
+  .image-gallery-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .search-bar {
+    margin-left: 0;
+    margin-top: 10px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .image-grid {
+    grid-template-columns: 1fr; /* 1 per row for very small screens */
+  }
+}

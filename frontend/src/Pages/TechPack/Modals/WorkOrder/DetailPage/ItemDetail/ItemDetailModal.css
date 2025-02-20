@@ -1,0 +1,24 @@
+.modal-content {
+  max-height: 90vh; /* Ensure the modal doesn't exceed 80% of the viewport height */
+  overflow-y: auto; /* Allow vertical scrolling if content exceeds the height */
+  padding: 20px;
+}
+.modal-content_itemDetail{
+  max-width: 800px !important;
+  padding: 30px !important;
+}
+.form-section_itemDetail{
+  display: flex;
+  justify-content: space-between;
+}
+.label-itemDetail_checkbox{
+  display: flex !important;
+  flex-direction: row-reverse !important;
+  justify-content: flex-end;
+}
+/* .checkbox_itemDetail{
+  width: 5%;
+} */
+.select_labelItem{
+  width: 25%;
+}

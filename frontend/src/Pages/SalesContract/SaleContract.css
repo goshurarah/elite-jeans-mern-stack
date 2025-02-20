@@ -1,0 +1,14 @@
+.table-container_saleContract{
+    height: calc(80vh) !important;
+    overflow: auto !important;
+    border: 1px solid #91d5ff;
+    background-color: "red";
+}
+@media screen and (max-width:1440px) {
+    .table-container_saleContract{
+        height: calc(75vh) !important;
+        overflow: auto !important;
+        border: 1px solid #91d5ff;
+        background-color: "red";
+    }
+}
